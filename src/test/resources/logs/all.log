@@ -1,0 +1,52 @@
+22:12:24 [INFO ] u.c.e.a.s.GmailServiceImpl:46 -  send email[besttesterever12@gmail.com : test letter1 : hello world!]
+22:12:24 [INFO ] u.c.e.a.s.GmailServiceImpl:58 - create Gmail API connection
+22:12:27 [INFO ] u.c.e.a.s.GmailServiceImpl:46 -  send email[besttesterever12@gmail.com : test letter2 : hello java]
+22:12:27 [INFO ] u.c.e.a.s.GmailServiceImpl:58 - create Gmail API connection
+22:12:27 [INFO ] u.c.e.a.s.GmailServiceImpl:46 -  send email[besttesterever12@gmail.com : test letter3 : hello tester]
+22:12:27 [INFO ] u.c.e.a.s.GmailServiceImpl:58 - create Gmail API connection
+22:12:28 [INFO ] u.c.e.a.s.GmailServiceImpl:46 -  send email[besttesterever12@gmail.com : test letter4 :  hello QA]
+22:12:28 [INFO ] u.c.e.a.s.GmailServiceImpl:58 - create Gmail API connection
+22:12:29 [INFO ] u.c.e.l.GmailTestListeners:18 - I am in onStart method Gradle test
+22:12:29 [INFO ] u.c.e.f.DriverFactory:18 - try to create driver chrome
+22:12:39 [INFO ] u.c.e.f.DriverFactory:31 - chrome driver was successfully created
+22:12:41 [INFO ] u.c.e.l.GmailTestListeners:28 - I am in onTestStart method markMessagesLikeImportant start
+22:12:42 [INFO ] u.c.e.d.e.e.ButtonElement:21 - click to element : By.cssSelector: div.VfPpkd-RLmnJb
+22:12:42 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.name: password
+22:12:43 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.cssSelector: div.VfPpkd-RLmnJb
+22:12:54 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[1]
+22:12:54 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[1]
+22:12:55 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[1]
+22:12:55 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[2]
+22:12:55 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[2]
+22:12:56 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[2]
+22:12:56 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[3]
+22:12:56 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[3]
+22:12:56 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//table[@role='grid']//div[@role='checkbox'])[3]
+22:12:56 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.cssSelector: span.asa.bjy
+22:12:56 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: //*[text()='Позначити як важливе']
+22:12:57 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.cssSelector: span.bAq
+22:12:58 [INFO ] u.c.e.d.e.PageElement:38 - is element displayed : By.cssSelector: span.bAq
+22:12:58 [INFO ] u.c.e.d.e.PageElement:55 - get text from element : By.cssSelector: span.bAq
+22:12:58 [INFO ] u.c.e.d.e.PageElement:43 - scroll to element : By.cssSelector: .n6 .CJ
+22:12:58 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.cssSelector: .n6 .CJ
+22:12:58 [INFO ] u.c.e.d.e.PageElement:91 - wait until element clickable : By.cssSelector: .TN.bzz.aHS-bns .J-Ke.n0
+22:12:59 [INFO ] u.c.e.d.e.e.ButtonElement:21 - click to element : By.cssSelector: .TN.bzz.aHS-bns .J-Ke.n0
+22:13:00 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[1]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[1]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[1]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[2]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[2]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[2]
+22:13:00 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[3]
+22:13:01 [INFO ] u.c.e.d.e.PageElement:28 - action click to element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[3]
+22:13:01 [INFO ] u.c.e.d.e.PageElement:108 - wait until attribute [class] be [oZ-jc T-Jo J-J5-Ji T-Jo-Jp] in element : By.xpath: (//div[@gh='tl']//div[@role='checkbox'])[3]
+22:13:01 [INFO ] u.c.e.d.e.e.ButtonElement:21 - click to element : By.xpath: //* [@gh='tm']//*[@class='T-I J-J5-Ji nX T-I-ax7 T-I-Js-Gs mA']
+22:13:01 [INFO ] u.c.e.d.e.PageElement:85 - wait until element visible : By.cssSelector: span.bAq
+22:13:01 [INFO ] u.c.e.d.e.PageElement:38 - is element displayed : By.cssSelector: span.bAq
+22:13:01 [INFO ] u.c.e.d.e.PageElement:55 - get text from element : By.cssSelector: span.bAq
+22:13:01 [INFO ] u.c.e.l.GmailTestListeners:33 - I am in onTestSuccess method markMessagesLikeImportant succeed
+22:13:01 [INFO ] u.c.e.f.DriverContainer:20 - try to quit driver
+22:13:02 [INFO ] u.c.e.f.DriverContainer:25 - driver was successfully closed
+22:13:02 [INFO ] u.c.e.l.GmailTestListeners:23 - I am in onFinish method Gradle test
+22:13:02 [INFO ] u.c.e.a.s.GmailServiceImpl:66 -  clear gmail user's : besttesterever12@gmail.com
+22:13:02 [INFO ] u.c.e.a.s.GmailServiceImpl:58 - create Gmail API connection

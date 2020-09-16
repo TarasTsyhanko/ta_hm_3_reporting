@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Appenders>
+        <RandomAccessFile name="RandomAccessFile" fileName="src/test/resources/logs/all.log" immediateFlush="true" append="false">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss} [%-5level] %c{1.}:%L - %msg%n</Pattern>
+            </PatternLayout>
+        </RandomAccessFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{%d{HH:mm:ss} [%-5level] %c{1.}:%L - %msg%n}{FATAL=red, ERROR=red, WARN=yellow, INFO=yellow, DEBUG=green, TRACE=blue}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RandomAccessFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
